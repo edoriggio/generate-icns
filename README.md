@@ -13,4 +13,20 @@ This is a small shell script that allows you to create .iconset and .icns files.
 1. Place the file `mkicon.sh` in `/usr/local/bin` (this can be done by using the command: `mv ./mkicon.sh /usr/local/bin`);
 2. Place the file `generate_icns.py` in the home directory (this can be done by using the command: `mv ./generate_icns.py ~`);
 3. Logout of your machine in order to save the changes;
-4. Now you can use the command `mkicon [-i | -h] image destination` wherever you are (n.b. instead of image you must put the absolute path of the image you want to transform, and the same goes for destination. Destination is the absolute path of the destination directory where to save the .iconset and eventually the .icns files)
+4. Now you can use the command `mkicon [-i | -h] image destination` wherever you are
+
+## Command
+
+```bash
+$ mkicon [flags] image destination
+
+flags:
+-i        Generate the .icns file
+-h        Show a brief description of the command's flags and arguments
+
+image:
+absolute path of the image you want to transform
+
+destination:
+absolute path of the destination directory where to save the .iconset and eventually the .icns files
+```
