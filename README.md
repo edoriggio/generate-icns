@@ -1,4 +1,4 @@
-# Generate .icns
+# Generate .iconset and .icns files
 
 This is a small shell script that allows you to create .iconset and .icns files. For the .iconset file, the script will generate **16x16**, **32x32**, **64x64**, 
 **128x128**, **256x256**, **512x512** and **1024x1024** px images. This can be modified in the `generate_icns.py` file's `size` array.
