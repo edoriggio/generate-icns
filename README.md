@@ -22,7 +22,7 @@ $ mkicon [flags] image destination
 
 flags:
 -i        Generate the .icns file
--h        Show a brief description of the command's flags and arguments
+-h        Show a brief description of the command flags and arguments
 
 image:
 absolute path of the image you want to transform
