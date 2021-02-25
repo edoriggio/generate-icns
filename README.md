@@ -17,7 +17,7 @@ This is a small shell script that allows you to create .iconset and .icns files.
 
 ## Command
 
-```bash
+```
 $ mkicon [-i | -h] [image] [destination]
 
 options:
