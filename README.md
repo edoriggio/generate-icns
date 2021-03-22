@@ -10,7 +10,7 @@ This is a small shell script that allows you to create .iconset and .icns files.
 
 ## How to use it
 
-1. Place the file `mkicon.sh` in `/usr/local/bin` (this can be done by using the command: `mv ./mkicon.sh /usr/local/bin`);
+1. Place the file `mkicon.sh` in `/usr/local/bin` and remove its extension (this can be done by using the command: `mv ./mkicon.sh /usr/local/bin/mkicon`);
 2. Place the file `generate_icns.py` in the home directory (this can be done by using the command: `mv ./generate_icns.py ~`);
 3. Logout of your machine in order to save the changes;
 4. Now you can use the command `mkicon [-i | -h] image destination` wherever you are
